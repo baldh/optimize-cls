@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+:root {
+  --font-heading: 'Syne', sans-serif;
+  --font-general: 'Epilogue', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--font-general);
+  background-color: #302c2c;
+  color: white;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 98px;
+}
+
+.heading {
+  width: 800px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 2.4rem;
+  width: 1130px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 800px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-position: top center;
+}
+
+.main-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.main-content p {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+.body-img {
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.body-img-container {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.body-img figcaption {
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preload {
+  /* height: 400px; */
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.preload img {
+  display: none;
+}
+
+.blur {
+  filter: blur(20px);
+}
